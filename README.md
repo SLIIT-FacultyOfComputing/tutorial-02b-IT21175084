@@ -15,8 +15,8 @@ e.g.
 ```c
 float data1;
 int data2;
-scanf("%f", &data1); --> std::cin >> data1;
-scanf("%d", &data2); --> std::cin >> data2; 
+std::cin<<data1; --> std::cin >> data1;
+std::cin<<data2; --> std::cin >> data2; 
 ```
 
 

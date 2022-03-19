@@ -22,7 +22,7 @@ int main() {
   std::cin >> n;
   std::cout << "Enter a value for r ";
   std::cin >> r;
-  std::cout << "nCr = ";
+  std::cout << "nCr =n!/r!(n-r)! ";
   std::cout << nCr(n,r);
   std::cout << std::endl;
   return 0;
